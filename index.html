@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>бомжатка® corporation™</title>
+    <link rel="icon" href="img/icon.ico" type="images/x-icon">
+    <style>
+        #butt{
+            background: rgba(0, 225, 0, 0.2);
+            background-size: cover;
+            height: 71px;
+            width: 391px;
+            position: relative;
+            left: 10px;
+            top: 20px;
+            border: none;
+            border-radius: 15px;
+	        font-size: 32px;
+        }
+        #bt1{
+            background: url(img/1.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 10px;
+            top: -5px;
+            border: none;
+            border-radius: 15px;
+        }
+        #bt2{
+            background: url(img/2.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 15px;
+            top: -5px;
+            border: none;
+            border-radius: 15px;
+        }
+        #bt3{
+            background: url(img/3.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 20px;
+            top: -5px;
+            border: none;
+            border-radius: 15px;
+        }
+        #bt4{
+            background: url(img/4.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 10px;
+            top: 55px;
+            border: none;
+            border-radius: 15px;
+        }
+        #bt5{
+            background: url(img/5.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 15px;
+            top: 55px;
+            border: none;
+            border-radius: 15px;
+        }
+        #bt6{
+            background: url(img/6.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 20px;
+            top: 55px;
+            border: none;
+            border-radius: 15px;
+        }
+        #bt7{
+            background: url(img/7.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 10px;
+            top: 45px;
+            border: none;
+            border-radius: 15px;
+        }
+        #bt8{
+            background: url(img/8.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 15px;
+            top: 45px;
+            border: none;
+            border-radius: 15px;
+        }
+        #bt9{
+            background: url(img/9.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 20px;
+            top: 45px;
+            border: none;
+            border-radius: 15px;
+        }
+        #bt0{
+            background: url(img/0.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 10px;
+            top: 5px;
+            border: none;
+            border-radius: 15px;
+        }
+        #btstop{
+            background: url(img/fullstop.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 15px;
+            top: 5px;
+            border: none;
+            border-radius: 15px;
+        }
+        #btCE{
+            background: url(img/ce.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 10px;
+            top: 35px;
+            border: none;
+            border-radius: 15px;
+        }
+        #btplus{
+            background: url(img/plus.png), rgba(0, 225, 0, 0.3);
+            height: 131px;
+            width: 91px;
+            position: relative;
+            left: 25px;
+            top: 65px;
+            border: none;
+            border-radius: 15px;
+        }
+        #btum{
+            background: url(img/um.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 25px;
+            top: 45px;
+            border: none;
+            border-radius: 15px;
+        }
+        #btminos{
+            background: url(img/minos.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 25px;
+            top: 55px;
+            border: none;
+            border-radius: 15px;
+        }
+        #btdel{
+            background: url(img/del.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 25px;
+            top: 35px;
+            border: none;
+            border-radius: 15px;
+        }
+        #btx{
+            background: url(img/x2.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 20px;
+            top: 35px;
+            border: none;
+            border-radius: 15px;
+        }
+        #btsqrt{
+            background: url(img/cor.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 15px;
+            top: 35px;
+            border: none;
+            border-radius: 15px;
+        }
+        #btrawn{
+            background: url(img/rawn.png), rgba(0, 225, 0, 0.3);
+            height: 61px;
+            width: 91px;
+            position: relative;
+            left: 20px;
+            top: 5px;
+            border: none;
+            border-radius: 15px;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+        }
+
+
+
+        #headBlock{
+            width: 411px;
+            height: 475px;
+            border-radius: 15px;
+            margin-left: calc(50% - 205px);
+            margin-top: 10%;
+            background: url(img/gh.png) center;
+            background-size: cover;
+
+
+
+        }
+    </style>
+</head>
+
+<body style="background: url(img/stonks.jpg) center no-repeat fixed; background-size: cover;">
+    <script>
+    var myAudio = new Audio;
+    var a = 0;
+    var b = 0;
+    var zn = "plus";
+    function buttonclick1 (button) {
+        document.getElementById('butt').value = document.getElementById('butt').value + 1;
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function buttonclick2 (button) {
+        document.getElementById('butt').value = document.getElementById('butt').value + 2;
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function buttonclick3 (button) {
+        document.getElementById('butt').value = document.getElementById('butt').value + 3;
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function buttonclick4 (button) {
+        document.getElementById('butt').value = document.getElementById('butt').value + 4;
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function buttonclick5 (button) {
+        document.getElementById('butt').value = document.getElementById('butt').value + 5;
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function buttonclick6 (button) {
+        document.getElementById('butt').value = document.getElementById('butt').value + 6;
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function buttonclick7 (button) {
+        document.getElementById('butt').value = document.getElementById('butt').value + 7;
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function buttonclick8 (button) {
+        document.getElementById('butt').value = document.getElementById('butt').value + 8;
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function buttonclick9 (button) {
+        document.getElementById('butt').value = document.getElementById('butt').value + 9;
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function buttonclick0 (button) {
+        document.getElementById('butt').value = document.getElementById('butt').value + 0;
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function fullstop (button) {
+        document.getElementById('butt').value = document.getElementById('butt').value + ".";
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function CE (button) {
+        document.getElementById('butt').value = "";
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function plus (button) {
+        a = document.getElementById('butt').value;
+        zn = "plus";
+        document.getElementById('butt').value = "";
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function um (button) {
+        a = document.getElementById('butt').value;
+        zn = "um";
+        document.getElementById('butt').value = "";
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function minos (button) {
+        a = document.getElementById('butt').value;
+        zn = "minos";
+        document.getElementById('butt').value = "";
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function ste (button) {
+        a = document.getElementById('butt').value;
+        zn = "ste";
+        document.getElementById('butt').value = "";
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function del (button) {
+        a = document.getElementById('butt').value;
+        zn = "del";
+        document.getElementById('butt').value = "";
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+    function sqrt (button) {
+        a = document.getElementById('butt').value;
+        document.getElementById('butt').value = Math.sqrt(a);
+        myAudio.src = "b.mp3";
+        myAudio.play();
+   
+    }
+    function rawn (button) {
+        b = document.getElementById('butt').value;
+        if (zn === "plus") document.getElementById('butt').value = a * 1 + b * 1;
+        if (zn === "um") document.getElementById('butt').value = a * b;
+        if (zn === "minos") document.getElementById('butt').value = a - b;
+        if (zn === "ste") document.getElementById('butt').value = a ** b;
+        if (zn === "del") document.getElementById('butt').value = a / b;
+        myAudio.src = "b.mp3";
+        myAudio.play();
+    }
+</script>
+    <div id="headBlock">
+        <input type="text" id="butt" value=""/> <br/>
+        <input type="button" id="btCE" onclick="CE (this)"/>
+        <input type="button" id="btsqrt" onclick="sqrt (this)"/>
+        <input type="button" id="btx" onclick="ste (this)"/>
+        <input type="button" id="btdel" onclick="del (this)"/> <br/>
+        <input type="button" id="bt7" onclick="buttonclick7 (this)"/>
+        <input type="button" id="bt8" onclick="buttonclick8 (this)"/>
+        <input type="button" id="bt9" onclick="buttonclick9 (this)"/>
+        <input type="button" id="btum" onclick="um (this)"/> <br/>
+        <input type="button" id="bt4" onclick="buttonclick4 (this)"/>
+        <input type="button" id="bt5" onclick="buttonclick5 (this)"/>
+        <input type="button" id="bt6" onclick="buttonclick6 (this)"/>
+        <input type="button" id="btminos" onclick="minos (this)"/> <br/>
+        <input type="button" id="bt1" onclick="buttonclick1 (this)"/>
+        <input type="button" id="bt2" onclick="buttonclick2 (this)"/>
+        <input type="button" id="bt3" onclick="buttonclick3 (this)"/>
+        <input type="button" id="btplus" onclick="plus (this)"/> <br/>
+        <input type="button" id="bt0" onclick="buttonclick0 (this)"/>
+        <input type="button" id="btstop" onclick="fullstop (this)"/>
+        <input type="button" id="btrawn" onclick="rawn (this)"/>
+    </div>
+</body>
+
+</html>
